@@ -1,15 +1,14 @@
 " Vim color file
-" Maintainer:	Thomas Schmall <ts_nowhere@yahoo.com>
-" Last Change:	2004 Jun 14
-" Version: 1.1
+" Maintainer:	Thomas Schmall <ts_nowhere@NOSPAM_yahoo.com>
+" Last Change:	2004 Nov 20
+" URL: http://www.vim.org/scripts/script.php?script_id=792
+" Version: 1.3
 
 " This color scheme uses a light grey background.
 
 " Last Changes:
-" *included title
-"-------
-" *included more color definitions (operator (bold), identifier, error, Special and Todo)
-" *changed identifier and type colors
+" *line number colors changed
+
 
 " First remove all existing highlighting.
 set background=light
@@ -23,6 +22,7 @@ let g:colors_name = "simpleandfriendly"
 "Set nice colors #DC6210
 "Cursor is Cyan when ":lmap" mappings are active
 hi lCursor guibg=Cyan guifg=NONE
+hi LineNr	 guifg=white  guibg=#acbbff
 
 "Text below the last line is darker grey
 hi NonText 	guibg=grey80
