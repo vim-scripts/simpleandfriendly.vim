@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=792
+
+This colors evolved over a long time. I tried to use very eye-friendly colors and put some optical emphasis on comments.
+
+Screenshot: http://www.oxpal.com/downloads/vim/simpleandfriendly_split.png
+
+I looked for more subtle colors than those of the VI-distrib. I took a default-scheme and changed around, 'til I liked it. I don't know if the commands are enough for hardcore programmers that work with complex syntax, so feel free to enhance it. 
